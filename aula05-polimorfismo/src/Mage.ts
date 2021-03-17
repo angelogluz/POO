@@ -12,4 +12,8 @@ export class Mage extends Personagem {
     this._intelecto = Util.randomizar(100, 1_000);
     this._velocidade = Util.randomizar(10, 2_000);
   }
+
+  public atacar(): string {
+    return "Ataque do Mago";
+  }
 }
